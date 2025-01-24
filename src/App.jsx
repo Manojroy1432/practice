@@ -1,7 +1,12 @@
 import React from "react";
+import Nodejs from "./pages/nodejs/Nodejs";
 
 function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <Nodejs />
+    </div>
+  );
 }
 
 export default App;
